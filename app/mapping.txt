@@ -1,0 +1,20 @@
+Client (User, Attorney)
+   |
+   v
+FastAPI Application
+   |
+   +-- /claims         --> Claim Intake
+   +-- /audit          --> Audit Logic
+   +-- /demand         --> Final Demand Letter
+   +-- /escalation     --> Escalation Recommendation
+   +-- /prophet        --> Litigation Risk Simulation
+   +-- /action/report  --> Generate PDFs + Casefile ZIP
+   +-- /casefile       --> Manage case packet (generate/download)
+   +-- /dashboard      --> System Overview
+   +-- /healthcheck    --> Folder Integrity Check
+   +-- /genesis-version --> Version Quick Check
+   |
+Filesystem
+   |
+   +-- /casefiles/     --> Stores zipped case packets
+   +-- /logs/          --> Stores generation logs

@@ -1,0 +1,30 @@
+/app/
+├── api/
+│   ├── audit.py          # Audit endpoint
+│   ├── claims.py         # Claim management
+│   ├── demand.py         # Final demand letter generation
+│   ├── escalation.py     # Escalation recommendation generation
+│   ├── prophet.py        # Litigation simulation module
+│   ├── action_report.py  # Full case packet generation (3 PDFs)
+│   ├── casefile.py       # Full zipped casefile management
+│   ├── dashboard.py      # System health and activity dashboard
+│   ├── healthcheck.py    # Self-healing system health check
+│   └── (future API modules easily extendable here)
+│
+├── services/
+│   ├── action_report_service.py  # Core casefile logic
+│   ├── audit_service.py           # Internal audit calculations
+│   ├── casefile_service.py        # ZIP creation & management
+│   ├── claim_service.py           # In-memory claim database (swappable for real DB)
+│   ├── demand_service.py          # Demand letter templates
+│   ├── escalation_service.py      # Escalation decision logic
+│   ├── log_service.py             # Casefile generation logging
+│   ├── pdf_service.py             # PDF generation engine
+│   ├── prophet_service.py         # Litigation simulation scoring
+│   ├── zap_service.py             # ZAP rebuttal instruction engine
+│   └── zap_templates.py           # Template library for rebuttals
+│
+├── version.py                      # Genesis version control
+│
+/casefiles/                         # Auto-generated zipped case files
+/logs/                               # Auto-generated action logs

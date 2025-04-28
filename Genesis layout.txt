@@ -1,0 +1,35 @@
+FastAPI Backend/
+├── app/
+│   ├── __init__.py        # (create blank file)
+│   ├── main.py            # (your main FastAPI app launcher)
+│   ├── api/
+│   │   ├── __init__.py    # (blank)
+│   │   ├── claims.py
+│   │   ├── adjusters.py
+│   │   ├── audit.py
+│   │   ├── prophet.py
+│   │   ├── demand.py
+│   ├── services/
+│   │   ├── __init__.py    # (blank)
+│   │   ├── claim_service.py
+│   │   ├── adjuster_service.py
+│   │   ├── audit_service.py
+│   │   ├── prophet_service.py
+│   │   ├── demand_service.py
+│   ├── models/
+│   │   ├── __init__.py    # (blank)
+│   │   ├── claim_models.py
+│   │   ├── adjuster_models.py
+│   │   ├── audit_models.py
+│   │   ├── prophet_models.py
+│   │   ├── demand_models.py
+│   ├── core/
+│   │   ├── __init__.py    # (blank)
+│   │   ├── config.py      # (for settings)
+│   │   ├── security.py    # (future - API keys / JWT)
+│   ├── db/                # (optional future - we will create if needed later)
+├── tests/                 # (optional future for backend tests)
+│   ├── __init__.py
+├── .env                    # (already exists, env variables)
+├── requirements.txt        # (already exists)
+├── README.md                # (update later)

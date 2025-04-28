@@ -1,0 +1,10 @@
+{
+  "claimant_name": "string",
+  "ocr_text": "string",
+  "gds": [
+    {
+      "Category": "string",
+      "Amount": 0.0
+    }
+  ],
+  "upload_timestamp": 
