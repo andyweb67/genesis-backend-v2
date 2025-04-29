@@ -1,0 +1,813 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 560C-8659
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend
+
+28/04/2025  09:16 PM    <DIR>          .
+28/04/2025  09:16 PM    <DIR>          ..
+27/04/2025  03:51 PM                 4 .gitignore
+28/04/2025  02:55 PM    <DIR>          app
+28/04/2025  05:36 PM    <DIR>          casefiles
+26/04/2025  03:01 PM    <DIR>          dependencies
+28/04/2025  09:18 PM                 0 file_list.txt
+27/04/2025  10:11 PM             1,514 Genesis layout.txt
+28/04/2025  05:36 PM    <DIR>          logs
+27/04/2025  08:20 PM                34 README.md
+27/04/2025  12:16 PM                43 requirements.txt
+27/04/2025  12:10 PM    <DIR>          routers
+28/04/2025  11:25 AM                77 runserver.bat
+27/04/2025  08:40 PM    <DIR>          saved_claims
+27/04/2025  11:16 AM    <DIR>          sections
+28/04/2025  10:46 AM                 0 _init_.py
+28/04/2025  05:51 PM    <DIR>          __pycache__
+               7 File(s)          1,672 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git
+
+28/04/2025  04:15 PM               112 COMMIT_EDITMSG
+27/04/2025  03:52 PM               423 config
+27/04/2025  01:17 PM                73 description
+28/04/2025  09:03 PM               237 FETCH_HEAD
+27/04/2025  03:27 PM    <DIR>          filter-repo
+27/04/2025  03:49 PM                21 HEAD
+27/04/2025  01:17 PM    <DIR>          hooks
+28/04/2025  04:15 PM            10,007 index
+27/04/2025  03:27 PM    <DIR>          info
+27/04/2025  03:27 PM    <DIR>          logs
+28/04/2025  09:03 PM    <DIR>          objects
+27/04/2025  03:51 PM                41 ORIG_HEAD
+27/04/2025  03:27 PM               230 packed-refs
+27/04/2025  03:34 PM    <DIR>          refs
+               8 File(s)         11,144 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\filter-repo
+
+27/04/2025  03:27 PM    <DIR>          .
+27/04/2025  03:27 PM    <DIR>          ..
+27/04/2025  03:27 PM               136 already_ran
+27/04/2025  03:27 PM                61 changed-refs
+27/04/2025  03:27 PM               209 commit-map
+27/04/2025  03:27 PM                82 first-changed-commits
+27/04/2025  03:27 PM               393 ref-map
+27/04/2025  03:27 PM                35 suboptimal-issues
+               6 File(s)            916 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\hooks
+
+27/04/2025  01:17 PM    <DIR>          .
+27/04/2025  01:17 PM    <DIR>          ..
+27/04/2025  01:17 PM               478 applypatch-msg.sample
+27/04/2025  01:17 PM               896 commit-msg.sample
+27/04/2025  01:17 PM             4,726 fsmonitor-watchman.sample
+27/04/2025  01:17 PM               189 post-update.sample
+27/04/2025  01:17 PM               424 pre-applypatch.sample
+27/04/2025  01:17 PM             1,649 pre-commit.sample
+27/04/2025  01:17 PM               416 pre-merge-commit.sample
+27/04/2025  01:17 PM             1,374 pre-push.sample
+27/04/2025  01:17 PM             4,898 pre-rebase.sample
+27/04/2025  01:17 PM               544 pre-receive.sample
+27/04/2025  01:17 PM             1,492 prepare-commit-msg.sample
+27/04/2025  01:17 PM             2,783 push-to-checkout.sample
+27/04/2025  01:17 PM             2,308 sendemail-validate.sample
+27/04/2025  01:17 PM             3,650 update.sample
+              14 File(s)         25,827 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\info
+
+27/04/2025  03:27 PM    <DIR>          .
+27/04/2025  03:27 PM    <DIR>          ..
+27/04/2025  01:17 PM               240 exclude
+27/04/2025  03:27 PM               184 refs
+               2 File(s)            424 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\logs
+
+27/04/2025  03:27 PM    <DIR>          .
+27/04/2025  03:27 PM    <DIR>          ..
+28/04/2025  04:15 PM               758 HEAD
+27/04/2025  03:34 PM    <DIR>          refs
+               1 File(s)            758 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\logs\refs
+
+27/04/2025  03:34 PM    <DIR>          .
+27/04/2025  03:34 PM    <DIR>          ..
+27/04/2025  03:27 PM    <DIR>          heads
+27/04/2025  03:34 PM    <DIR>          remotes
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\logs\refs\heads
+
+27/04/2025  03:27 PM    <DIR>          .
+27/04/2025  03:27 PM    <DIR>          ..
+27/04/2025  03:27 PM                 0 initial
+27/04/2025  03:28 PM               159 initial-commit
+28/04/2025  04:15 PM               421 main
+               3 File(s)            580 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\logs\refs\remotes
+
+27/04/2025  03:34 PM    <DIR>          .
+27/04/2025  03:34 PM    <DIR>          ..
+27/04/2025  03:52 PM    <DIR>          origin
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\logs\refs\remotes\origin
+
+27/04/2025  03:52 PM    <DIR>          .
+27/04/2025  03:52 PM    <DIR>          ..
+28/04/2025  09:03 PM             2,385 HEAD
+27/04/2025  03:34 PM               148 initial-commit
+28/04/2025  04:16 PM               296 main
+               3 File(s)          2,829 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects
+
+28/04/2025  09:03 PM    <DIR>          .
+28/04/2025  09:03 PM    <DIR>          ..
+28/04/2025  04:15 PM    <DIR>          07
+28/04/2025  04:15 PM    <DIR>          0b
+28/04/2025  04:15 PM    <DIR>          11
+28/04/2025  04:15 PM    <DIR>          20
+27/04/2025  03:28 PM    <DIR>          2e
+28/04/2025  04:15 PM    <DIR>          34
+28/04/2025  04:15 PM    <DIR>          36
+28/04/2025  04:15 PM    <DIR>          3e
+28/04/2025  04:15 PM    <DIR>          3f
+28/04/2025  04:15 PM    <DIR>          45
+28/04/2025  04:15 PM    <DIR>          4f
+28/04/2025  04:15 PM    <DIR>          50
+28/04/2025  04:15 PM    <DIR>          51
+28/04/2025  04:15 PM    <DIR>          57
+28/04/2025  04:15 PM    <DIR>          58
+28/04/2025  04:15 PM    <DIR>          5e
+28/04/2025  04:15 PM    <DIR>          5f
+28/04/2025  04:15 PM    <DIR>          63
+28/04/2025  04:15 PM    <DIR>          64
+28/04/2025  04:15 PM    <DIR>          65
+28/04/2025  04:15 PM    <DIR>          68
+28/04/2025  04:15 PM    <DIR>          6e
+28/04/2025  04:15 PM    <DIR>          6f
+28/04/2025  04:15 PM    <DIR>          7b
+28/04/2025  04:15 PM    <DIR>          7d
+28/04/2025  04:15 PM    <DIR>          81
+27/04/2025  03:28 PM    <DIR>          82
+28/04/2025  04:15 PM    <DIR>          87
+28/04/2025  04:15 PM    <DIR>          8b
+28/04/2025  04:15 PM    <DIR>          8e
+28/04/2025  04:15 PM    <DIR>          97
+28/04/2025  04:15 PM    <DIR>          a4
+28/04/2025  04:15 PM    <DIR>          a5
+28/04/2025  04:15 PM    <DIR>          b0
+28/04/2025  04:15 PM    <DIR>          b4
+28/04/2025  04:15 PM    <DIR>          be
+28/04/2025  04:15 PM    <DIR>          c3
+28/04/2025  04:15 PM    <DIR>          c7
+28/04/2025  04:15 PM    <DIR>          cd
+28/04/2025  04:15 PM    <DIR>          ce
+28/04/2025  04:15 PM    <DIR>          cf
+28/04/2025  04:15 PM    <DIR>          d1
+28/04/2025  04:15 PM    <DIR>          e1
+28/04/2025  04:15 PM    <DIR>          e9
+28/04/2025  04:15 PM    <DIR>          ea
+28/04/2025  04:15 PM    <DIR>          ed
+28/04/2025  04:15 PM    <DIR>          ee
+28/04/2025  04:15 PM    <DIR>          f6
+28/04/2025  04:15 PM    <DIR>          f8
+27/04/2025  03:27 PM    <DIR>          info
+27/04/2025  03:27 PM    <DIR>          pack
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\07
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               121 83f25646543207570a7c9fec96718bd11d0d84
+               1 File(s)            121 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\0b
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               927 567586fb6b917eaa1d6477b96b54b936281d83
+               1 File(s)            927 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\11
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               851 4e6097820f1243e54b068a575c1974326fa617
+               1 File(s)            851 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\20
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               637 6bb7b0633fa4f50390757ee96008603e87754c
+               1 File(s)            637 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\2e
+
+27/04/2025  03:28 PM    <DIR>          .
+27/04/2025  03:28 PM    <DIR>          ..
+28/04/2025  04:15 PM                19 ea525d885d5148108f6f3a9a8613863f783d36
+               1 File(s)             19 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\34
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               632 0fb8b399ea27c85f9be2aa086d9ec2d1a1f1c0
+               1 File(s)            632 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\36
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM             1,165 2c833a9d058d28a47d691547cd7636b9d0a825
+               1 File(s)          1,165 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\3e
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               157 b92997558b8d1a4989f4d9d5698bbfdb983f0f
+               1 File(s)            157 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\3f
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               499 19d83d3caea864594021914120282af11ac3ca
+               1 File(s)            499 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\45
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               582 2a51a418dabd38ee840edc416e164c15227f9f
+27/04/2025  03:28 PM               163 814c0c2ff6f4dcea4b5f6b3ef15cbf3258e73c
+28/04/2025  04:15 PM               435 88905c98ecc42130f2ddc7a4c98c790b6b484a
+               3 File(s)          1,180 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\4f
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               274 5eeb05c14783851402edb21aa2ed4cd34a7668
+28/04/2025  04:15 PM               539 eb514a3cfdc3b3247d6017d3909f7ad7a6b28c
+               2 File(s)            813 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\50
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               694 091efb1e6161b262ca0f1879ca5eb610e5fee8
+               1 File(s)            694 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\51
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               661 e4463005e04c35e76f819aed1b0f5c147cc096
+               1 File(s)            661 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\57
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               441 952cac808405620a5edd2c281db345e232e434
+               1 File(s)            441 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\58
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               502 b7409b3a9acc46b511ca5e10e0a5cf83349972
+               1 File(s)            502 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\5e
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               260 b4a680568fa9be640fd5e42a7436b6cec88785
+               1 File(s)            260 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\5f
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM                87 e09e27fb5a5f4ab3d6e3a8e97da6d96f70fcdd
+               1 File(s)             87 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\63
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM             1,146 3f57673f37f98d1e8d7ac354532ae1da3aa472
+               1 File(s)          1,146 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\64
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM                87 11be1a2387212da277f5bc46ac540bd8643d4a
+28/04/2025  04:15 PM                65 5381175b8561e83d4a4994d348b2609dbf91ff
+               2 File(s)            152 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\65
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               222 a8fbfdbe6a7a4d8e23cf00e081860cdef78c22
+               1 File(s)            222 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\68
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               608 555cd3070f356ed365ed29fb52c4fc74cc2c54
+28/04/2025  04:15 PM                60 55a63aba99c5c8e58d05344a141186da3e5eb3
+               2 File(s)            668 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\6e
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM                49 26edb3c3d029abeb34f2e06d82c4cc9353a439
+               1 File(s)             49 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\6f
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               435 c1eaf75d57cca0e4aba829b2f6d2c36b7f9647
+               1 File(s)            435 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\7b
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               586 dfaa18662ef3fd3df9117c3e3cabd35b2957f9
+               1 File(s)            586 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\7d
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               344 2881e44c8a9e83559007ba768b13b1df1c2187
+               1 File(s)            344 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\81
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               235 245fb372086b3069e1a0f32217c73f74db5593
+               1 File(s)            235 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\82
+
+27/04/2025  03:28 PM    <DIR>          .
+27/04/2025  03:28 PM    <DIR>          ..
+27/04/2025  03:36 PM               381 e854e900100752ca6655beb45dc6ad9dbb1e47
+               1 File(s)            381 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\87
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               397 9f61849849e180d7f1f0cd16e3ff9a6a0e1516
+               1 File(s)            397 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\8b
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               615 5da44db5a0681ccfd6b2661cf3123b5704c127
+28/04/2025  04:15 PM               434 87199879e8e5218d750a527239b102786cfc3c
+               2 File(s)          1,049 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\8e
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               585 6966aa5d85a7ccb74207f51a553c73c6b7743c
+               1 File(s)            585 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\97
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               391 74fbee6a51f207e9dd847edef1af8b6eb93129
+               1 File(s)            391 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\a4
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               834 f32b6396f9f6fa2332c9ee7832dadb6dc3c754
+               1 File(s)            834 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\a5
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               267 c89138c1ccf09c51e5abc5b7c48c1789560e15
+               1 File(s)            267 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\b0
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               587 4c223d4e45059930d0746e1efb79643e4e558f
+               1 File(s)            587 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\b4
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               575 d844b77d57271eaeb2e9d218e8b75fae40e6ff
+               1 File(s)            575 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\be
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               885 abb09af856068d08b2220425e12c8ee5d07832
+               1 File(s)            885 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\c3
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               688 105824edcf1f76147388ea98eaba6ea2cec635
+               1 File(s)            688 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\c7
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               764 697e121d6fa16ba84168bdabb17755c5fc93eb
+               1 File(s)            764 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\cd
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               179 453c30588108528799d79f564e78a4a7960ed7
+               1 File(s)            179 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\ce
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM             1,185 1121deadffe6e6f1d08b1206a686988f1e4f14
+               1 File(s)          1,185 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\cf
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               395 61084820beb799bc39b868b14ca5fa72d861cf
+28/04/2025  04:15 PM               367 dc538e28338914f7edc0b7c37fcdd9584c9fb5
+               2 File(s)            762 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\d1
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM             1,126 baaf283ba47b8db7cba921c652d1267abce926
+               1 File(s)          1,126 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\e1
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               106 30800c896376ebb042535cfc9f01a0966f7e69
+28/04/2025  04:15 PM               704 d9add2d540c4928937bb2a0f64e8e32c732bde
+               2 File(s)            810 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\e9
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               304 590e8cacefe6ec98675bd69a02164e09d3abcf
+               1 File(s)            304 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\ea
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               977 cbfc965d8f178fbad9e2046808c16f626cb651
+               1 File(s)            977 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\ed
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               250 939e148f4a031ee7c982e4f1ca446d47b8c875
+               1 File(s)            250 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\ee
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM             1,468 041b3e34448b39042bd93e0835b53fabf40e7b
+28/04/2025  04:15 PM             1,196 7ca6333ab52acac0c85a23515d0fa54bdc3abd
+               2 File(s)          2,664 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\f6
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM               230 3e56ef8451eb3e4f3d7e3423eef99e3c1223d5
+               1 File(s)            230 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\f8
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+28/04/2025  04:15 PM             1,731 74c520dc1673e84813b8a0e5ba7fa70c9d5a9f
+               1 File(s)          1,731 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\info
+
+27/04/2025  03:27 PM    <DIR>          .
+27/04/2025  03:27 PM    <DIR>          ..
+27/04/2025  03:27 PM             1,232 commit-graph
+27/04/2025  03:27 PM                54 packs
+               2 File(s)          1,286 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\objects\pack
+
+27/04/2025  03:27 PM    <DIR>          .
+27/04/2025  03:27 PM    <DIR>          ..
+27/04/2025  03:27 PM             2,808 pack-7f5f8a309d9281b421b1ea3fec6c16b6bdb52063.idx
+28/04/2025  04:15 PM            33,801 pack-7f5f8a309d9281b421b1ea3fec6c16b6bdb52063.pack
+27/04/2025  03:27 PM               300 pack-7f5f8a309d9281b421b1ea3fec6c16b6bdb52063.rev
+               3 File(s)         36,909 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\refs
+
+27/04/2025  03:34 PM    <DIR>          .
+27/04/2025  03:34 PM    <DIR>          ..
+28/04/2025  04:15 PM    <DIR>          heads
+27/04/2025  03:34 PM    <DIR>          remotes
+27/04/2025  01:17 PM    <DIR>          tags
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\refs\heads
+
+28/04/2025  04:15 PM    <DIR>          .
+28/04/2025  04:15 PM    <DIR>          ..
+27/04/2025  03:28 PM                41 initial-commit
+28/04/2025  04:15 PM                41 main
+               2 File(s)             82 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\refs\remotes
+
+27/04/2025  03:34 PM    <DIR>          .
+27/04/2025  03:34 PM    <DIR>          ..
+28/04/2025  09:03 PM    <DIR>          origin
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\refs\remotes\origin
+
+28/04/2025  09:03 PM    <DIR>          .
+28/04/2025  09:03 PM    <DIR>          ..
+28/04/2025  09:03 PM                40 HEAD
+27/04/2025  03:34 PM                41 initial-commit
+28/04/2025  04:16 PM                41 main
+               3 File(s)            122 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\.git\refs\tags
+
+27/04/2025  01:17 PM    <DIR>          .
+27/04/2025  01:17 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app
+
+28/04/2025  02:55 PM    <DIR>          .
+28/04/2025  02:55 PM    <DIR>          ..
+28/04/2025  06:17 PM    <DIR>          api
+28/04/2025  10:45 AM    <DIR>          core
+28/04/2025  02:54 PM             1,750 folders and services.txt
+28/04/2025  09:12 PM               477 main.py
+28/04/2025  02:55 PM               700 mapping.txt
+28/04/2025  07:06 PM    <DIR>          models
+28/04/2025  02:15 PM    <DIR>          services
+28/04/2025  02:27 PM                47 version.py
+28/04/2025  11:05 AM                 0 _init_.py
+28/04/2025  05:36 PM    <DIR>          __pycache__
+               5 File(s)          2,974 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app\api
+
+28/04/2025  06:17 PM    <DIR>          .
+28/04/2025  06:17 PM    <DIR>          ..
+28/04/2025  05:36 PM             1,718 action_report_TEMP.py
+28/04/2025  10:56 AM                 0 adjusters_TEMP.py
+28/04/2025  12:35 PM             1,983 audit.py
+28/04/2025  02:17 PM             2,407 casefile.py
+28/04/2025  12:02 PM               570 claims.py
+28/04/2025  02:33 PM             2,213 dashboard.py
+28/04/2025  12:51 PM               491 demand.py
+28/04/2025  12:56 PM               467 escalation.py
+28/04/2025  04:41 PM               912 gds.py
+28/04/2025  02:23 PM               982 healthcheck.py
+28/04/2025  01:04 PM               513 prophet.py
+28/04/2025  10:56 AM                 0 _init_.py
+28/04/2025  05:36 PM    <DIR>          __pycache__
+              12 File(s)         12,256 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app\api\__pycache__
+
+28/04/2025  05:36 PM    <DIR>          .
+28/04/2025  05:36 PM    <DIR>          ..
+28/04/2025  05:36 PM             1,918 action_report.cpython-312.pyc
+28/04/2025  12:39 PM             2,234 audit.cpython-312.pyc
+28/04/2025  05:36 PM             2,731 casefile.cpython-312.pyc
+28/04/2025  12:02 PM             1,009 claims.cpython-312.pyc
+28/04/2025  05:36 PM             2,711 dashboard.cpython-312.pyc
+28/04/2025  12:52 PM               776 demand.cpython-312.pyc
+28/04/2025  12:57 PM               771 escalation.cpython-312.pyc
+28/04/2025  05:36 PM             1,688 gds.cpython-312.pyc
+28/04/2025  05:36 PM             1,522 healthcheck.cpython-312.pyc
+28/04/2025  01:05 PM               791 prophet.cpython-312.pyc
+              10 File(s)         16,151 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app\core
+
+28/04/2025  10:45 AM    <DIR>          .
+28/04/2025  10:45 AM    <DIR>          ..
+26/04/2025  05:56 PM               318 config.py
+26/04/2025  06:02 PM               140 settings.py
+28/04/2025  10:45 AM                 0 _init_.py
+26/04/2025  06:04 PM    <DIR>          __pycache__
+               3 File(s)            458 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app\core\__pycache__
+
+26/04/2025  06:04 PM    <DIR>          .
+26/04/2025  06:04 PM    <DIR>          ..
+26/04/2025  05:56 PM               733 config.cpython-312.pyc
+26/04/2025  06:04 PM               281 settings.cpython-312.pyc
+               2 File(s)          1,014 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app\models
+
+28/04/2025  07:06 PM    <DIR>          .
+28/04/2025  07:06 PM    <DIR>          ..
+28/04/2025  10:50 AM                 0 adjuster_models.py
+28/04/2025  10:50 AM                 0 audit_models_TEMP.py
+28/04/2025  12:19 PM               465 claim_models.py
+26/04/2025  03:16 PM               462 request_models.py
+28/04/2025  10:44 AM                 0 _init_.py
+28/04/2025  12:19 PM    <DIR>          __pycache__
+               5 File(s)            927 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app\models\__pycache__
+
+28/04/2025  12:19 PM    <DIR>          .
+28/04/2025  12:19 PM    <DIR>          ..
+28/04/2025  12:19 PM               817 claim_models.cpython-312.pyc
+26/04/2025  03:16 PM             1,288 request_models.cpython-312.pyc
+               2 File(s)          2,105 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app\services
+
+28/04/2025  02:15 PM    <DIR>          .
+28/04/2025  02:15 PM    <DIR>          ..
+28/04/2025  01:42 PM             1,595 action_report_service.py
+26/04/2025  05:28 PM             1,715 ai_handler.py
+28/04/2025  12:24 PM             2,947 audit_service.py
+28/04/2025  02:09 PM             1,833 casefile_service.py
+28/04/2025  04:31 PM             1,341 claim_service.py
+28/04/2025  12:50 PM             1,853 demand_service.py
+28/04/2025  12:55 PM             1,707 escalation_service.py
+28/04/2025  02:15 PM               792 log_service.py
+26/04/2025  10:21 PM             1,687 pdf_generator.py
+28/04/2025  01:53 PM             4,056 pdf_service.py
+28/04/2025  01:03 PM             1,772 prophet_service.py
+26/04/2025  03:01 PM             1,394 prophet_templates.py
+28/04/2025  12:33 PM               978 zap_service.py
+26/04/2025  01:56 PM             1,929 zap_templates.py
+27/04/2025  12:33 PM                 0 _init_.py
+28/04/2025  05:36 PM    <DIR>          __pycache__
+              15 File(s)         25,599 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app\services\__pycache__
+
+28/04/2025  05:36 PM    <DIR>          .
+28/04/2025  05:36 PM    <DIR>          ..
+28/04/2025  01:43 PM             1,829 action_report_service.cpython-312.pyc
+26/04/2025  05:28 PM             2,347 ai_handler.cpython-312.pyc
+28/04/2025  12:39 PM             2,961 audit_service.cpython-312.pyc
+28/04/2025  05:33 PM             2,751 casefile_service.cpython-312.pyc
+28/04/2025  05:33 PM             1,636 claim_service.cpython-312.pyc
+28/04/2025  12:52 PM             2,244 demand_service.cpython-312.pyc
+28/04/2025  12:57 PM             1,780 escalation_service.cpython-312.pyc
+28/04/2025  05:36 PM             1,440 log_service.cpython-312.pyc
+26/04/2025  10:21 PM             2,839 pdf_generator.cpython-312.pyc
+28/04/2025  05:33 PM             6,927 pdf_service.cpython-312.pyc
+28/04/2025  01:05 PM             1,773 prophet_service.cpython-312.pyc
+26/04/2025  03:02 PM             1,490 prophet_templates.cpython-312.pyc
+28/04/2025  12:39 PM             1,263 zap_service.cpython-312.pyc
+26/04/2025  02:14 PM             1,930 zap_templates.cpython-312.pyc
+              14 File(s)         33,210 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\app\__pycache__
+
+28/04/2025  05:36 PM    <DIR>          .
+28/04/2025  05:36 PM    <DIR>          ..
+28/04/2025  05:33 PM             2,102 main.cpython-312.pyc
+28/04/2025  05:36 PM               191 version.cpython-312.pyc
+               2 File(s)          2,293 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\casefiles
+
+28/04/2025  05:36 PM    <DIR>          .
+28/04/2025  05:36 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\dependencies
+
+26/04/2025  03:01 PM    <DIR>          .
+26/04/2025  03:01 PM    <DIR>          ..
+26/04/2025  03:01 PM                 0 prophet_templates.py
+26/04/2025  02:48 PM               365 security.py
+26/04/2025  02:49 PM    <DIR>          __pycache__
+               2 File(s)            365 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\dependencies\__pycache__
+
+26/04/2025  02:49 PM    <DIR>          .
+26/04/2025  02:49 PM    <DIR>          ..
+26/04/2025  02:49 PM               716 security.cpython-312.pyc
+               1 File(s)            716 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\logs
+
+28/04/2025  05:36 PM    <DIR>          .
+28/04/2025  05:36 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\routers
+
+27/04/2025  12:10 PM    <DIR>          .
+27/04/2025  12:10 PM    <DIR>          ..
+26/04/2025  02:50 PM               703 adjuster.py
+26/04/2025  05:56 PM             1,100 admin.py
+26/04/2025  10:14 PM             2,035 batch.py
+27/04/2025  12:10 PM               951 claims.py
+26/04/2025  02:54 PM             1,064 prophet.py
+26/04/2025  02:55 PM             1,125 zap.py
+27/04/2025  12:31 PM    <DIR>          __pycache__
+               6 File(s)          6,978 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\routers\__pycache__
+
+27/04/2025  12:31 PM    <DIR>          .
+27/04/2025  12:31 PM    <DIR>          ..
+26/04/2025  02:50 PM             1,081 adjuster.cpython-312.pyc
+26/04/2025  06:01 PM             1,439 admin.cpython-312.pyc
+26/04/2025  10:14 PM             2,749 batch.cpython-312.pyc
+27/04/2025  12:31 PM             1,678 claims.cpython-312.pyc
+26/04/2025  02:58 PM             1,402 prophet.cpython-312.pyc
+26/04/2025  02:55 PM             1,443 zap.cpython-312.pyc
+               6 File(s)          9,792 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\saved_claims
+
+27/04/2025  08:40 PM    <DIR>          .
+27/04/2025  08:40 PM    <DIR>          ..
+27/04/2025  08:40 PM               162 string_claim_20250427104035.json
+27/04/2025  08:40 PM               162 string_claim_20250427104051.json
+27/04/2025  08:40 PM               162 string_claim_20250427104053.json
+               3 File(s)            486 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\sections
+
+27/04/2025  11:16 AM    <DIR>          .
+27/04/2025  11:16 AM    <DIR>          ..
+27/04/2025  11:07 AM             1,894 section 2_liability.py
+27/04/2025  11:04 AM             3,536 section1_upload_gds.py
+27/04/2025  11:09 AM             1,422 section3_adjuster_setup.py
+27/04/2025  11:10 AM             3,059 section4_adjuster_response.py
+27/04/2025  11:12 AM             1,719 section5_RRT_table.py
+27/04/2025  11:13 AM             2,450 section6_final_demand.py
+27/04/2025  11:14 AM             1,869 section7_prophet.py
+27/04/2025  11:15 AM             2,755 section8_claim_iq_consultation.py
+27/04/2025  11:16 AM               882 section9_call_escalation.py
+               9 File(s)         19,586 bytes
+
+ Directory of C:\Users\18644\OneDrive\Desktop\FastAPI Backend\__pycache__
+
+28/04/2025  05:51 PM    <DIR>          .
+28/04/2025  05:51 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+     Total Files Listed:
+             209 File(s)        248,563 bytes
+             254 Dir(s)  22,382,977,024 bytes free
