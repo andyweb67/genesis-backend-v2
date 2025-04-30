@@ -1,0 +1,84 @@
+{
+    "claimant_name": "Nikole Marie",
+    "claim_number": "GEICO-123456",
+    "date_of_loss": "2022-08-15",
+    "claim_type": "UIM",
+    "state": "SC",
+    "pip_status": "N/A",
+    "adjuster_name": "Mary Jones",
+    "adjuster_email": "mary.jones@geico.com",
+    "initial_offer": "16000",
+    "attorney_name": "Philip Beaton",
+    "law_firm": "Beaton Injury Law",
+    "gds_table": {
+        "medical_specials_total": {
+            "attorney": "25,000",
+            "genesis": "25,000"
+        },
+        "providers": [
+            {
+                "name": "Spine Center",
+                "attorney": "12,000",
+                "genesis": "12,000",
+                "validation": null,
+                "page": null
+            },
+            {
+                "name": "Physical Therapy",
+                "attorney": "8,000",
+                "genesis": "8,000",
+                "validation": null,
+                "page": null
+            },
+            {
+                "name": "Chiropractor",
+                "attorney": "5,000",
+                "genesis": "5,000",
+                "validation": null,
+                "page": null
+            }
+        ],
+        "pain_and_suffering": {
+            "attorney": "50,000",
+            "genesis": "50,000"
+        },
+        "future_medicals": {
+            "attorney": "15,000",
+            "genesis": "15,000"
+        },
+        "lost_wages": {
+            "attorney": "5,000",
+            "genesis": "5,000"
+        },
+        "mileage": {
+            "attorney": "300",
+            "genesis": "300"
+        },
+        "subtotal": {
+            "attorney": "95,300",
+            "genesis": "95,300"
+        },
+        "deductions": {
+            "attorney": "25,000",
+            "genesis": "25,000"
+        },
+        "total": {
+            "attorney": "70,300",
+            "genesis": "70,300"
+        }
+    },
+    "supporting_documents": [
+        {
+            "provider": "Spine Center",
+            "specialist": "Orthopedic Surgeon",
+            "treatment_or_code": "Lumbar Fusion",
+            "page": "12",
+            "npi": "1234567890",
+            "board_certification": "Yes",
+            "treatment_type": "Surgical",
+            "impairment_assessment": "34% WPI",
+            "peer_reviewed_support": "Yes"
+        }
+    ],
+    "liability_determination": "Adverse party 100% at fault. No contributory negligence."
+}

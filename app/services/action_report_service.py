@@ -6,6 +6,7 @@ from app.services.zap_service import generate_full_zap_response
 from app.services.demand_service import generate_final_demand_letter
 from app.services.escalation_service import evaluate_escalation
 from app.services.prophet_service import simulate_prophet_litigation
+from app.services.report_writer import generate_rrt_markdown_report
 
 def generate_action_report(claim_id: int, jurisdiction: str = "Default State", adjuster_behavior: str = "neutral") -> dict:
     """
@@ -22,6 +23,17 @@ def generate_action_report(claim_id: int, jurisdiction: str = "Default State", a
     escalation = evaluate_escalation(claim_id, adjuster_behavior)
     prophet = simulate_prophet_litigation(claim_id, adjuster_behavior)
 
+    # Markdown export logic
+    ps_comparison = audit.get("pain_suffering_comparison", {})
+    audit_table = audit.get("audit_table", [])
+    claim_data = claim.model_dump() if hasattr(claim, 'model_dump') else claim.__dict__
+    claim_data.update({
+        "zap_rebuttals": zap_rebuttals,
+        "audit_table": audit_table,
+        "ps_comparison": ps_comparison
+    })
+    generate_rrt_markdown_report(claim.claim_number, zap_rebuttals, audit_table, ps_comparison, claim_data)
+
     return {
         "claim_info": {
             "claimant_name": claim.claimant_name,
@@ -33,5 +45,6 @@ def generate_action_report(claim_id: int, jurisdiction: str = "Default State", a
         "zap_rebuttals": zap_rebuttals,
         "final_demand_letter": final_demand.get("final_demand_letter"),
         "escalation_decision": escalation,
-        "prophet_simulation": prophet
+        "prophet_simulation": prophet,
+        "markdown_report_path": f"casefiles/{claim.claim_number}_rrt_report.md"
     }

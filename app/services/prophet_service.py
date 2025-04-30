@@ -1,48 +1,54 @@
 # app/services/prophet_service.py
 
-from app.services.claim_service import claims_db
-from app.services.audit_service import perform_audit
-
 def simulate_prophet_litigation(claim_id: int, adjuster_behavior: str = "neutral") -> dict:
-    """
-    Simulates potential litigation exposure based on audit results and adjuster behavior.
-    """
+    # Mock suppression logic
+    suppression_alert = False
+    adjuster_refused_ps = adjuster_behavior.lower() == "suppressive"
+    suppression_alert = adjuster_refused_ps
 
-    if claim_id < 1 or claim_id > len(claims_db):
-        return {"error": "Claim not found"}
+    # Mock revised offer logic
+    revised_offer = 50000 if suppression_alert else 32000
 
-    audit_result = perform_audit(claim_id)
+    # Mock jury risk score
+    jury_risk = 85 if suppression_alert else 60
 
-    audit_score = audit_result.get("audit_score", 0)
-    suppression_alert = audit_result.get("suppression_alert", False)
+    # Suppression alert triggers
+    claim_data = {
+        "claim_id": claim_id,
+        "insurer": "GEICO",
+        "claim_software": "Claim IQ"
+    }
+    insurer = claim_data.get("insurer", "").lower()
+    software = claim_data.get("claim_software", "").lower()
 
-    risk_multiplier = 1.0
+    subpoena_alog = False
+    subpoena_ciq = False
+    flags = []
 
-    # Base adjustments
-    if suppression_alert:
-        risk_multiplier += 0.5
-    if audit_score < 50:
-        risk_multiplier += 0.3
-    if adjuster_behavior.lower() in ["defensive", "evasive", "resistant"]:
-        risk_multiplier += 0.2
-
-    # Estimated jury risk score out of 100
-    base_jury_risk = 50
-    estimated_jury_risk = base_jury_risk * risk_multiplier
-
-    # Litigation recommendation based on risk level
-    if estimated_jury_risk >= 80:
-        recommendation = "High risk of excess verdict. Recommend aggressive settlement or immediate litigation filing."
-    elif 60 <= estimated_jury_risk < 80:
-        recommendation = "Moderate risk of adverse verdict. Recommend strong negotiation pressure."
-    else:
-        recommendation = "Manageable risk. Recommend settlement if reasonable."
+    if "geico" in insurer and "claim iq" in software:
+        subpoena_alog = True
+        subpoena_ciq = True
+        flags.append("Insurer uses Claim IQ — known suppression behavior")
+        flags.append("Subpoena ALOG and CIQ valuation logic recommended")
 
     return {
         "claim_id": claim_id,
-        "audit_score": audit_score,
-        "suppression_alert": suppression_alert,
         "adjuster_behavior": adjuster_behavior,
-        "estimated_jury_risk_score": round(estimated_jury_risk, 2),
-        "recommendation": recommendation
+        "estimated_jury_risk_score": jury_risk,
+        "audit_score": 87,
+        "suppression_alert": suppression_alert,
+        "adjuster_refused_ps": adjuster_refused_ps,
+        "recommendation": "Escalate to trial prep phase",
+        "revised_offer": revised_offer,
+        "trigger": "pain_suffering_withheld" if adjuster_refused_ps else "lowball_offer",
+        "claim_type": "first_party",
+        "risk_level": "High" if jury_risk > 75 else "Moderate",
+        "bad_faith_exposure": "Yes" if suppression_alert else "Potential",
+        "jurisdiction_multiplier": 3.2,
+        "defense_ai_recommendation": "Advise early settlement to avoid discovery risk",
+        "insurer": insurer.title(),
+        "claim_software": software.title(),
+        "subpoena_alog": subpoena_alog,
+        "subpoena_ciq": subpoena_ciq,
+        "suppression_alerts": flags
     }

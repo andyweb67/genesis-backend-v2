@@ -4,6 +4,9 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import io
 import os
+from markdown import markdown
+from weasyprint import HTML
+from app.services.file_naming_service import get_casefile_folder, get_full_path, get_report_filename
 
 def generate_action_report_pdf(report_data: dict, save_path: str = None) -> bytes:
     """
@@ -52,6 +55,13 @@ def generate_action_report_pdf(report_data: dict, save_path: str = None) -> byte
     draw_line("\nProphet Simulation:")
     draw_line(f"- {report_data.get('prophet_simulation', {}).get('recommendation', 'N/A')}")
 
+    # Suppression alerts (if any)
+    alerts = report_data.get("prophet_simulation", {}).get("suppression_alerts", [])
+    if alerts:
+        draw_line("\n⚠️ Suppression Alerts Detected:")
+        for alert in alerts:
+            draw_line(f"- {alert}")
+
     p.showPage()
     p.save()
 
@@ -64,7 +74,6 @@ def generate_action_report_pdf(report_data: dict, save_path: str = None) -> byte
             f.write(pdf_data)
 
     return pdf_data
-
 
 def generate_final_demand_pdf(final_demand_text: str, save_path: str) -> None:
     """
@@ -98,7 +107,6 @@ def generate_final_demand_pdf(final_demand_text: str, save_path: str) -> None:
     with open(save_path, "wb") as f:
         f.write(pdf_data)
 
-
 def generate_prophet_summary_pdf(prophet_data: dict, save_path: str) -> None:
     """
     Generates a PDF summarizing Prophet Litigation Simulation.
@@ -130,6 +138,11 @@ def generate_prophet_summary_pdf(prophet_data: dict, save_path: str) -> None:
     draw_line(f"Estimated Jury Risk Score: {prophet_data.get('estimated_jury_risk_score')}")
     draw_line(f"Recommendation: {prophet_data.get('recommendation')}")
 
+    if prophet_data.get("suppression_alerts"):
+        draw_line("\n⚠️ Suppression Alerts Detected:")
+        for alert in prophet_data["suppression_alerts"]:
+            draw_line(f"- {alert}")
+
     p.showPage()
     p.save()
 
@@ -138,3 +151,23 @@ def generate_prophet_summary_pdf(prophet_data: dict, save_path: str) -> None:
 
     with open(save_path, "wb") as f:
         f.write(pdf_data)
+
+def convert_markdown_to_pdf(markdown_path: str) -> str:
+    """
+    Converts a Markdown file to PDF using WeasyPrint and Markdown rendering.
+    """
+    if not os.path.exists(markdown_path):
+        raise FileNotFoundError(f"Markdown file not found: {markdown_path}")
+
+    with open(markdown_path, "r", encoding="utf-8") as f:
+        md_content = f.read()
+
+    html_content = markdown(md_content, extensions=["tables", "fenced_code"])
+
+    output_dir = os.path.dirname(markdown_path)
+    os.makedirs(output_dir, exist_ok=True)
+
+    pdf_path = markdown_path.replace(".md", ".pdf")
+    HTML(string=html_content).write_pdf(pdf_path)
+
+    return pdf_path

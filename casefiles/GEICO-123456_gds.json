@@ -1,0 +1,86 @@
+{
+    "Claim Details": {
+        "Claimant Name": "Nikole Marie",
+        "Claim Number": "GEICO-123456",
+        "Date of Loss": "2022-08-15",
+        "Claim Type": "UIM",
+        "State": "SC",
+        "PIP Status": "N/A",
+        "Adjuster Name": "Mary Jones",
+        "Adjuster Email": "mary.jones@geico.com",
+        "Initial Offer": "16000",
+        "Attorney Name": "Philip Beaton",
+        "Law Firm": "Beaton Injury Law"
+    },
+    "Genesis Demand Summary Table": {
+        "medical_specials_total": {
+            "attorney": "25,000",
+            "genesis": "25,000"
+        },
+        "providers": [
+            {
+                "name": "Spine Center",
+                "attorney": "12,000",
+                "genesis": "12,000",
+                "validation": null,
+                "page": null
+            },
+            {
+                "name": "Physical Therapy",
+                "attorney": "8,000",
+                "genesis": "8,000",
+                "validation": null,
+                "page": null
+            },
+            {
+                "name": "Chiropractor",
+                "attorney": "5,000",
+                "genesis": "5,000",
+                "validation": null,
+                "page": null
+            }
+        ],
+        "pain_and_suffering": {
+            "attorney": "50,000",
+            "genesis": "50,000"
+        },
+        "future_medicals": {
+            "attorney": "15,000",
+            "genesis": "15,000"
+        },
+        "lost_wages": {
+            "attorney": "5,000",
+            "genesis": "5,000"
+        },
+        "mileage": {
+            "attorney": "300",
+            "genesis": "300"
+        },
+        "subtotal": {
+            "attorney": "95,300",
+            "genesis": "95,300"
+        },
+        "deductions": {
+            "attorney": "25,000",
+            "genesis": "25,000"
+        },
+        "total": {
+            "attorney": "70,300",
+            "genesis": "70,300"
+        }
+    },
+    "Supporting Documents": [
+        {
+            "provider": "Spine Center",
+            "specialist": "Orthopedic Surgeon",
+            "treatment_or_code": "Lumbar Fusion",
+            "page": "12",
+            "npi": "1234567890",
+            "board_certification": "Yes",
+            "treatment_type": "Surgical",
+            "impairment_assessment": "34% WPI",
+            "peer_reviewed_support": "Yes"
+        }
+    ],
+    "Liability Determination Summary": "Adverse party 100% at fault. No contributory negligence."
+}

@@ -48,3 +48,15 @@ def zip_casefile(claim_id: int) -> str:
             os.remove(file_path)
 
     return zip_path
+
+def package_casefile(claim_number: str, file_paths: list, output_dir: str = "casefiles") -> str:
+    os.makedirs(output_dir, exist_ok=True)
+    zip_path = os.path.join(output_dir, f"{claim_number}_casefile.zip")
+
+    with zipfile.ZipFile(zip_path, "w") as zipf:
+        for path in file_paths:
+            if os.path.exists(path):
+                arcname = os.path.basename(path)
+                zipf.write(path, arcname=arcname)
+
+    return zip_path

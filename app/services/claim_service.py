@@ -33,13 +33,20 @@ Date Created: 2025-04-28
 
 from typing import List
 from app.models.claim_models import ClaimCreate
+import os
 
 # Fake database (just a simple list for now)
 claims_db: List[ClaimCreate] = []
 
+# Internal helper to create folder per claim
+def create_claim_folder(claim_id: int):
+    folder_path = os.path.join("casefiles", str(claim_id))
+    os.makedirs(folder_path, exist_ok=True)
+
 # Function to add a claim
 def add_claim(claim: ClaimCreate):
     claims_db.append(claim)
+    create_claim_folder(claim.claim_id)
 
 # Function to list all claims
 def list_claims() -> List[ClaimCreate]:

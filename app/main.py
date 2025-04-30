@@ -1,7 +1,9 @@
 from fastapi import FastAPI
 import os
 from app.api import (
-    healthcheck
+    healthcheck,
+    gds,
+    adjuster,
     # claims,
     # audit,
     # demand,
@@ -9,7 +11,6 @@ from app.api import (
     # prophet,
     # casefile,
     # dashboard,
-    # gds
 )
 
 app = FastAPI(
@@ -25,8 +26,10 @@ async def genesis_startup_event():
         if not os.path.exists(folder):
             os.makedirs(folder)
 
-# Only load Healthcheck
+# Load Routers
 app.include_router(healthcheck.router)
+app.include_router(gds.router, prefix="/gds", tags=["Genesis Demand Summary"])
+app.include_router(adjuster.router)
 
 @app.get("/")
 def read_root():
